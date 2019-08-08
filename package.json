@@ -1,0 +1,30 @@
+{
+  "name": "nbuilder",
+  "version": "0.0.1",
+  "description": "Rapid generation of test objects in TypeScript",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpileOnly ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gruckion/nbuilder.git"
+  },
+  "keywords": [
+    "typescript",
+    "test",
+    "builder",
+    "generic"
+  ],
+  "author": "Gruckion Ltd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gruckion/nbuilder/issues"
+  },
+  "homepage": "https://github.com/gruckion/nbuilder#readme",
+  "dependencies": {
+    "ts-node-dev": "^1.0.0-pre.40",
+    "typescript": "^3.5.3"
+  }
+}
